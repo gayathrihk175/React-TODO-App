@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+}
+
+.container {
+  height: 80vh;
+  padding: 20px;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  align-items: center;
+  border-radius: 20px;
+  flex-direction: column;
+  border: 1px solid grey;
+}
+
+.todo-form {
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.todo-form input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 5px;
+  border: none;
+}
+
+.all-todos {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.single-todo {
+  border-radius: 50px;
+  margin: 10px 0;
+  background-color: #5dadf8;
+  padding: 10px 20px;
+  display: flex;
+  width: 450px;
+  align-items: center;
+}
+
+.todo-text {
+  flex: 1;
+}
